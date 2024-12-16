@@ -7,9 +7,9 @@ import codecs
 import os
 
 try:
-    from setuptools import setup, find_packages
+    from setuptools import setup, find_packages # type: ignore
 except:
-    from distutils.core import setup, find_packages
+    from distutils.core import setup, find_packages # type: ignore
 
 
 def read(fname):
